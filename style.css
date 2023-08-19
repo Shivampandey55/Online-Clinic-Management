@@ -1,0 +1,469 @@
+/* CSS Document */
+body
+{
+	background:url(images/bg-content.jpg);
+}
+.header
+{
+	background:url(images/bg-header.jpg) repeat bottom;
+	height:120px;
+	width:100%;
+}
+
+.header table th a
+{
+color:#FFFFFF;
+text-decoration:none;
+font-size:14px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.menu
+{
+height:80px;
+width:1348px;
+margin:0px auto;
+}
+
+.menu ul 
+{
+list-style-type:none;
+padding:10px 10px;
+position:absolute;
+}
+
+.menu ul ul
+{
+display:none;
+}
+
+.menu ul li
+{
+display:inline;
+height:45px;
+width:155px;
+float:left;
+padding:0px 5px;
+text-align:center;
+}
+.menu ul li:hover
+{
+	background: url(images/bg-menu.png) no-repeat top center;
+}
+.menu ul li a
+{
+color: #588181;
+text-decoration:none;
+font-size:14px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+text-transform: uppercase;
+margin: 0;
+	padding: 0;
+	text-align: center;
+	display: block;
+	height: 37px;
+	line-height: 40px;
+}
+
+.menu ul li a:hover 
+{
+background: url(images/dots.png) repeat-x left bottom;
+color: #254c4c;
+position:relative;
+z-index:+6;
+}
+.menu ul li:hover  ul
+{
+display:block;
+background:url(images/bg-content.jpg);
+border:#333333 1px solid;
+font-size:14px;
+font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+color:#FFFFFF;
+margin-left:-20px;
+}
+.menu ul ul
+{
+	height:200px;
+	width:150px;
+	z-index:+1;
+}
+.menu ul ul li
+{
+height:40px;
+width:150px;
+}
+.menu ul ul li:hover
+{
+	background:#FFFF33;
+}
+#banner
+{
+	width: 1000px;
+    height: 400px;
+	margin:0px auto;
+}
+.banner1
+{
+	width: 100%;
+    height: 250px;
+	margin:0px auto;
+}
+.test table th a
+{
+	font-size:17px;
+	text-decoration:none;
+	color:#FF3333;
+}
+.test table th a:hover
+{
+	color:#666699;
+}
+#gallery
+{
+	background:url(images/bg-content.jpg);
+}
+
+.content .content_left_section .hope_clinic
+{
+	float:left;
+}
+.content .content_left_section .hope_clinic h1
+{
+	color:#6699CC;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 5px;
+}
+.content .content_left_section .hope_clinic p
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+.content .content_left_section .hope_clinic_slogan p
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	font-weight:bold;
+	background:#CCCCCC;
+
+}
+.content .content_left_section .hope_clinic_slogan p:hover
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color:#6699CC;
+	font-weight:bold;
+}
+.content .content_left_section .contact_us
+{
+	margin-top:10px;
+}
+.content .content_left_section .contact_us h2
+{
+	color:#6699CC;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .contact_us h3
+{
+	color:#FA5072;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .contact_us h4
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	margin-top:-20px;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .contact_us font
+{
+	color:#6699CC;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:20px;
+	font-weight: bold;
+	float:left;
+	text-align: left;
+}
+.content .content_left_section .contact_us p
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+.content .content_left_section .about_us h1
+{
+	color:#6699CC;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .about_us p
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+.content .content_left_section .diagnostic h1
+{
+	font-size:16px;
+	color:#408C9A;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .diagnostic table th
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+.content .content_left_section .consultation h1
+{
+	font-size:16px;
+	color:#408C9A;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .consultation table th
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+.content .content_left_section .consultation table th a
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-decoration:none;
+}
+.content .content_left_section .consultation table th a:hover
+{
+	color:#FA5072;
+	text-decoration:underline;
+}
+.content .content_left_section .side_bar table th a
+{
+	font-size:14px;
+	color:#408C9A;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+	text-decoration:none;
+}
+.content .content_left_section .side_bar table
+{
+	background:#CCCCCC;
+}
+.content .content_left_section .side_bar table th a:hover, .content .content_left_section .side_bar table th .current
+{
+	color:#FA5072;
+}
+.content .content_left_section .health_check
+{
+	margin-bottom:60px;
+}
+.content .content_left_section .health_check h1
+{
+	font-size:16px;
+	color:#408C9A;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+.content .content_left_section .health_check table th
+{
+	font: 12px/22px Arial,Helvetica,sans-serif;
+	color: #5E5E5E;
+	text-align: justify;
+}
+
+.content .appointment th
+{
+	color:#444444;
+	font-family:'Arial Narrow', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.content .feedback th
+{
+	color:#444444;
+	font-family:'Arial Narrow', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.patientid
+{
+	margin-top:50px;
+}
+.patientid table
+{
+	border:#999999 solid 1px;
+	margin-top:50px;
+}
+.login_patient .login_patient_form table
+{
+	border:#999999 solid 1px;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.login_patient .login_patient_form  table th
+{
+	font-size:16px;
+	color:#666666;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.login_patient .login_doctor_form table
+{
+	border:#999999 solid 1px;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.login_patient .login_doctor_form  table th
+{
+	font-size:16px;
+	color:#003366;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.login_admin .login_admin_form table
+{
+	border:#999999 solid 1px;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.login_admin .login_admin_form  table th
+{
+	font-size:16px;
+	color:#003366;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.login_lab .login_lab_form table
+{
+	border:#999999 solid 1px;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.login_lab .login_lab_form  table th
+{
+	font-size:16px;
+	color:#003366;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.lab table th
+{
+	color:#996699;
+	font-size:20px;
+	font-family:Script MT Bold;
+}
+.lab_details table th
+{
+	border-right:red solid 3px;
+}
+.doctor_signup table
+{
+	border:#999999 solid 1px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.doctor_signup table th
+{
+	font-size:16px;
+	color:#003366;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.find_a_doctor
+{
+	background:url(images/bg-content.jpg);
+}
+.find_a_doctor table
+{
+	margin-bottom:95px;
+}
+.find_a_doctor table th
+{
+	font-size:16px;
+	color:#003366;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold;
+}
+.registration table
+{
+	margin-top:50px;
+	margin-bottom:50px;
+	border:#666666 solid 1px;
+}
+.registration table th a
+{
+	text-decoration:underline;
+	color:#003366;
+	font-size:18px;
+	font-family:'Courier New', Courier, monospace;
+}
+.registration table th a:hover
+{
+	text-decoration:none;
+	color:#FA5072;
+}
+.options table th a
+{
+	font-family:Script MT Bold;
+	font-size:24px;
+	color:#996699;
+	text-decoration:none;
+}
+.options table th a:hover
+{
+	color:#CC3366;
+	text-decoration:underline;
+}
+.options table th a:hover, .options table th .current
+{
+	color:#CC3366;
+	text-decoration:underline;
+}
+.footer
+{
+	
+	border-top: 4px solid #ffe600;
+	height:115px;
+	width:100%;
+	background:url(images/bg-header.jpg) repeat-x;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	
+}
+
+.footer table th 
+{
+	padding-top:8px;
+	color:#767676;
+	font-size:13px;
+}
+
+.footer table th a 
+{
+	color: #767676;
+	text-decoration:none;
+	font-size:13px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.footer table th a:hover 
+{
+	color: #000;
+	text-decoration:underline;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
